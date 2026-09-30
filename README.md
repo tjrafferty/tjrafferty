@@ -6,7 +6,7 @@ I get legacy Grails apps onto a supported stack without a rewrite, and I build S
 
 - Working in Grails since 1.3 (2012), with production code on every major version from 2 through 6.
 - Upgraded two large Grails 2.5.6 applications to 6.2.3 and Java 17, one of them a major version at a time. Both are now in final pre-launch testing.
-- Rehearsed a production cutover on a restored copy of the production database: one pass, about 17 minutes, zero schema failures.
+- Scripted and rehearsed the go-live data migration on a restored copy of the production database: one pass, about 17 minutes, zero schema failures, and every predicted count matched.
 - Helped build the early Morpheus platform (Grails), later acquired by Hewlett Packard Enterprise.
 - Technical lead on a GIS-heavy Grails platform that's live in production: UTM/MGRS coordinates, KML layers, Google Maps Platform, and a serverless developer API.
 - Built an AI content engine behind a ~2M-page clinical-trials site: OpenAI with rate limiting, the Batch API, AI-output validation and human review queues.
